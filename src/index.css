@@ -1,6 +1,10 @@
+* {
+  margin: 0;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  background-color: rgb(255, 255, 255);
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto Slab', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -11,3 +15,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.spotify-logo{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.spotify-logo img{
+  max-width: 200px;
+}
+.src{
+  margin: 12px 0px 20px;
+  flex: 1 1 0%;
+  border-top: 1px solid;
+  color: rgb(230, 230, 230);
+}
+

@@ -1,0 +1,240 @@
+.login-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.login{
+    width: 400px;
+}
+.topside-buttons{
+    margin-top: 12px;
+    background-color: transparent;
+}
+
+
+.login-facebook img{
+    max-width: 15px;
+    margin-right: 5px;
+}
+.login-apple img{
+    max-width: 15px;
+    margin-right: 5px;
+}
+
+.login-google img{
+    max-width: 15px;
+    margin-right: 5px;
+}
+
+
+.facebook-button-attributes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.apple-button-attributes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.google-button-attributes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.telefone-button-attributes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login-facebook button{
+    border-radius: 50px;
+    border: none;
+    width: 100%;
+    padding: 14px;
+
+    margin-top: 8px;
+    margin-bottom: 3px;
+
+    background-color: rgb(64, 64, 168);
+    color: rgb(238, 238, 238);
+}
+.login-apple button{
+    border-radius: 50px;
+    border: none;
+    width: 100%;
+    padding: 14px;
+
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+    background-color: black;
+    color: rgb(238, 238, 238);
+}
+.login-google button{
+    border: 1px solid;
+    border-color: rgb(190, 190, 190);
+    border-radius: 50px;
+    width: 100%;
+    padding: 14px;
+
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+    background-color: white;
+    color: rgb(100, 100,100);
+}
+.login-telefone button{
+    border: 1px solid;
+    border-color: rgb(190, 190, 190);;
+    border-radius: 50px;
+    width: 100%;
+    padding: 14px;
+
+    margin-top: 3px;
+    
+    background-color: white;
+    color: rgb(100, 100,100);
+}
+
+
+
+.mid-division{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 12px;
+    width: 100%;
+}
+.src-mid{
+    margin: 9px 10px 10px;
+    flex: 1 1 0%;
+    border-top: 1px solid;
+    color: rgb(230, 230, 230);
+}
+.src h3{
+    margin: 20px;
+}
+.loginInputEmail input{
+    width: 100%;
+}
+.loginInputPassword input{
+    width: 100%;
+}
+
+.mid h1{
+    font-size: 13px;
+    color: black;
+    padding: 3px;
+}
+
+.loginInputEmail{
+    margin-top: 5px;
+}
+.loginInputPassword{
+    margin-top: 5px;
+}
+.loginInputEmail input{
+    background-color: white;
+    border: 1px solid;
+    border-color: rgb(190, 190, 190);
+    border-radius: 5px;
+    padding: 15px;
+    width: 94%;
+    margin-top: 5px;
+}
+.loginInputPassword input{
+    background-color: white;
+    border: 1px solid;
+    border-color: rgb(190, 190, 190);
+    border-radius: 5px;
+    padding: 15px;
+    width: 94%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.missingPassword text{
+    font-size: 15px;
+    background-color: transparent;
+}
+.login-button{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.login-button label{
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 0px;
+    color: black;
+}
+.check{
+    cursor: pointer;
+}
+
+.check:checked{
+    background-color: green;
+}
+
+.login-button button{
+    border-radius: 50px;
+    background-color: rgb(96, 206, 96);
+    border: none;
+    margin-left: 160px;
+    padding: 14px;
+    width: 30%;
+}
+
+.broke-line-bottom{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.src-two{
+    margin: 12px 0px 20px;
+    flex: 1 1 0%;
+    border-top: 1px solid;
+    color: rgb(230, 230, 230);
+}
+
+.botside{
+    background-color: transparent;
+}
+.botside h1{
+    font-size: 15px;
+    text-align: center;
+}
+.botside button{
+    background-color: white;
+    border: 1px rgb(190, 190, 190) solid;
+    border-radius: 50px;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    color: rgb(104, 104, 104);
+
+}
+
+.login-with-facebook{
+    display: flex;
+    justify-content: center;
+}
+
+.top-text h3{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+.credits{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+    font-size: 12px;
+    color:rgb(104, 104, 104);
+}
