@@ -7,7 +7,12 @@ import googlelogo from './img/googlelogo.png';
 
 function Login(){
 
-    const loginFacebookButton = () => console.log("Login com o Facebook.");
+    const loginFacebookButton = (valor) => {
+        console.log(valor.target.value);
+    }
+    const loginSenhaButton = (valor) => {
+        console.log(valor.target.value);
+    }
     const loginAppleButton = () => console.log("Login com a Apple.");
     const loginGoogleButton = () => console.log("Login com o Google.");
     const loginTelefoneButton = () => console.log("Login com o número de telefone.");
@@ -71,6 +76,7 @@ function Login(){
                         <input
                         className="text"
                         placeholder="Endereço de e-mail ou nome de usuário"
+                        onChange={loginFacebookButton}
                         ></input>
                     </div>
                     <div className="loginInputPassword">
@@ -79,6 +85,7 @@ function Login(){
                         className="text"
                         placeholder="Senha"
                         type="password"
+                        onChange={loginSenhaButton}
                         ></input>
                     </div>
                     <div className="missingPassword">
